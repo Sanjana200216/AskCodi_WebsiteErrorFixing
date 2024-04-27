@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bookstore</h1>
+        <nav>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#categories">Categories</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Book Showcase Start -->
+        <div class="book">
+            <img src="book1.jpg" alt="Book Image">
+            <div class="book-details">
+                <h2>Title: Book Title</h2>
+                <p>Author: Author Name</p>
+                <p>Genre: Genre</p>
+                <p>Summary: Book Summary</p>
+            </div>
+        </div>
+        <!-- Book Showcase End -->
+        
+        <!-- Add more book showcases as needed -->
+    </main>
+    
+    <footer>
+        <p>&copy; 2022 Bookstore. All rights reserved.</p>
+    </footer>
+    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+        </select>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
